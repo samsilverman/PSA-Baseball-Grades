@@ -69,6 +69,12 @@ The following are a list of known issues with the dataset that should be address
 
     3. PSA grade cases and labels
 
+## AutoGrade: A Deep Learning Approach to Trading Card Grading
+
+AutoGrade is a deep learning system that was trained on PSA-Grades-Baseball to provide estimates on PSA grades. AutoGrade and PSA-Grades-Baseball were developed as a final project for the course COMS 4995 (see Acknowledgements for more).
+
+[View AutoGrade Video 🎥](https://youtu.be/RiO3hh_IE7M)
+
 ## Contact
 
 Sam Silverman - [@sam_silverman](https://twitter.com/sam_silverman) - [samuel.silverman@columbia.edu](mailto:samuel.silverman@columbia.edu)
