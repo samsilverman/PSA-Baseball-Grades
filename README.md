@@ -11,7 +11,8 @@ PSA-Grades-Baseball is a dataset of baseball card images and associated [Profess
 
 ## Getting Started
 
-These instructions will get you a copy of the dataset on your local machine.
+These instructions will get you a copy
+of the dataset on your local machine.
 
 ### Installation
 
@@ -35,13 +36,13 @@ git clone https://github.com/samsilverman/PSA-Grades-Baseball.git
 
 The following steps were applied to each scrapped image to ensure a consistent format for all images in the dataset:
 
-1. Ensure a consistent image size of `150x200`. This was done in a three step process (code in `dataset_processor.py`):
+1. Ensure a consistent image size of `150x200`. This was done in a three-step process (code in `dataset_processor.py`):
 
     1. Images with `width > height` were rotated clockwise by 90°.
 
     2. Images were scaled to `150x200` (or as possible).
 
-    3. Images that could not be exactly scaled to `150x200` were padded using a replication of pixel values.
+    3. Images that could not be exactly scaled to `150x200` were padded using replication of pixel values.
 
 2. A simple file structure was implemented for ease of use:
 
@@ -69,7 +70,7 @@ The following are a list of known issues with the dataset that should be address
 
     3. irrelevant images
 
-2. The dataset contains unimportant features which consists of one or more of the following:
+2. The dataset contains unimportant features which consist of one or more of the following:
 
     1. Hands and tables
 
