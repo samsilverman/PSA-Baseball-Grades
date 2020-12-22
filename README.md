@@ -15,6 +15,10 @@ These instructions will get you a copy of the dataset on your local machine.
 
 ### Installation
 
+The following are different options to download the dataset:
+
+#### GitHub
+
 1. Clone the repository.
 
 ```bash
@@ -22,6 +26,10 @@ git clone https://github.com/samsilverman/PSA-Grades-Baseball.git
 ```
 
 2. **Optional**: If using automatic dataset generators such as `tf.keras.preprocessing.image_dataset_from_directory`, you may want to copy the psa directories from the repository to a separate directory to avoid miscellaneous files (i.e. git files) from being mistaken for classes.
+
+#### Zip
+
+1. Download the latest version of the dataset from [Releases](https://github.com/samsilverman/PSA-Baseball-Grades/releases).
 
 ## Details
 
